@@ -1,0 +1,2 @@
+# wartower
+CSGO Wartower Gamemode
