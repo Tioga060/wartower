@@ -1,0 +1,84 @@
+
+
+
+materialPath: F:\Program Files (x86)\SteamLibrary\SteamApps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\clientside_test.vmf
+Map revision 4
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\clientside_test.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3841 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 11
+Reduced 4 texdatas to 4 (88 bytes to 88)
+Writing C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\clientside_test.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\clientside_test.bsp
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\clientside_test.prt
+  10 portalclusters
+  18 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 98
+Average clusters visible: 9
+Building PAS...
+Average clusters audible: 10
+visdatasize:124  compressed from 160
+writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\clientside_test.bsp
+0 seconds elapsed
+
+
+
+materialPath: F:\Program Files (x86)\SteamLibrary\SteamApps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\clientside_test.vmf
+Map revision 5
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\clientside_test.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3841 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 11
+Reduced 4 texdatas to 4 (88 bytes to 88)
+Writing C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\clientside_test.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\clientside_test.bsp
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\clientside_test.prt
+  10 portalclusters
+  18 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 98
+Average clusters visible: 9
+Building PAS...
+Average clusters audible: 10
+visdatasize:124  compressed from 160
+writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\clientside_test.bsp
+0 seconds elapsed

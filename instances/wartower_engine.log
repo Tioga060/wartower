@@ -1,0 +1,50 @@
+
+
+
+materialPath: F:\Program Files (x86)\SteamLibrary\SteamApps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_engine.vmf
+Map revision 11
+fixing up env_cubemap materials on brush sides...
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (1130 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 6
+Reduced 2 texdatas to 2 (45 bytes to 45)
+Writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_engine.bsp
+0 seconds elapsed
+
+
+
+7 threads
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_engine.bsp
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_engine.prt
+LoadPortals: couldn't read c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_engine.prt
+
+
+
+materialPath: F:\Program Files (x86)\SteamLibrary\SteamApps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_engine.vmf
+Map revision 12
+fixing up env_cubemap materials on brush sides...
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (1130 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 6
+Reduced 2 texdatas to 2 (45 bytes to 45)
+Writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_engine.bsp
+0 seconds elapsed
+
+
+
+7 threads
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_engine.bsp
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_engine.prt
+LoadPortals: couldn't read c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_engine.prt

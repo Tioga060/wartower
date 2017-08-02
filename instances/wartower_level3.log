@@ -1,0 +1,494 @@
+
+
+
+materialPath: F:\Program Files (x86)\SteamLibrary\SteamApps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.vmf
+Map revision 15
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9120 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 49 texinfos to 21
+Reduced 7 texdatas to 7 (144 bytes to 144)
+Writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed
+
+
+
+7 threads
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.prt
+  85 portalclusters
+ 250 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 58 visible clusters (0.00%)
+Total clusters visible: 6855
+Average clusters visible: 80
+Building PAS...
+Average clusters audible: 85
+visdatasize:2554  compressed from 2720
+writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+174 faces
+762762 square feet [109837824.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+174 patches before subdivision
+5206 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 112988, max 194
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0009 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 22/8192          264/98304    ( 0.3%) 
+brushsides             150/65536        1200/524288   ( 0.2%) 
+planes                 278/65536        5560/1310720  ( 0.4%) 
+vertexes               290/65536        3480/786432   ( 0.4%) 
+nodes                  227/65536        7264/2097152  ( 0.3%) 
+texinfos                21/12288        1512/884736   ( 0.2%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  174/65536        9744/3670016  ( 0.3%) 
+hdr faces              174/65536        9744/3670016  ( 0.3%) 
+origfaces               52/65536        2912/3670016  ( 0.1%) 
+facebrushes             10/0              20/0        ( 0.0%) 
+facebrushlists         174/0             696/0        ( 0.0%) 
+leaves                 230/65536        7360/2097152  ( 0.4%) 
+leaffaces              195/65536         390/131072   ( 0.3%) 
+leafbrushes            216/65536         432/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              987/512000       3948/2048000  ( 0.2%) 
+edges                  584/256000       2336/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           147/65536         294/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      154656/0        ( 0.0%) 
+visdata               [variable]        2554/16777216 ( 0.0%) 
+entdata               [variable]        1027/393216   ( 0.3%) 
+LDR ambient table      230/65536         920/262144   ( 0.4%) 
+HDR ambient table      230/65536         920/262144   ( 0.4%) 
+LDR leaf ambient       230/65536        6440/1835008  ( 0.4%) 
+HDR leaf ambient        96/65536        2688/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74458/0        ( 0.0%) 
+physics               [variable]        9120/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 425
+Writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed
+
+
+
+materialPath: F:\Program Files (x86)\SteamLibrary\SteamApps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.vmf
+Map revision 19
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (11552 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 63 texinfos to 36
+Reduced 7 texdatas to 7 (144 bytes to 144)
+Writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed
+
+
+
+7 threads
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.prt
+  93 portalclusters
+ 275 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 15 visible clusters (0.00%)
+Total clusters visible: 7886
+Average clusters visible: 84
+Building PAS...
+Average clusters audible: 93
+visdatasize:2984  compressed from 2976
+writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+230 faces
+775165 square feet [111623840.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+230 patches before subdivision
+6646 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 143428, max 207
+transfer lists:   1.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 28/8192          336/98304    ( 0.3%) 
+brushsides             191/65536        1528/524288   ( 0.3%) 
+planes                 314/65536        6280/1310720  ( 0.5%) 
+vertexes               364/65536        4368/786432   ( 0.6%) 
+nodes                  241/65536        7712/2097152  ( 0.4%) 
+texinfos                36/12288        2592/884736   ( 0.3%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  230/65536       12880/3670016  ( 0.4%) 
+hdr faces              230/65536       12880/3670016  ( 0.4%) 
+origfaces               86/65536        4816/3670016  ( 0.1%) 
+facebrushes             12/0              24/0        ( 0.0%) 
+facebrushlists         230/0             920/0        ( 0.0%) 
+leaves                 244/65536        7808/2097152  ( 0.4%) 
+leaffaces              256/65536         512/131072   ( 0.4%) 
+leafbrushes            220/65536         440/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1398/512000       5592/2048000  ( 0.3%) 
+edges                  816/256000       3264/1024000  ( 0.3%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             22/32768         220/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           309/65536         618/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      222096/0        ( 0.0%) 
+visdata               [variable]        2984/16777216 ( 0.0%) 
+entdata               [variable]        1027/393216   ( 0.3%) 
+LDR ambient table      244/65536         976/262144   ( 0.4%) 
+HDR ambient table      244/65536         976/262144   ( 0.4%) 
+LDR leaf ambient       244/65536        6832/1835008  ( 0.4%) 
+HDR leaf ambient       104/65536        2912/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74458/0        ( 0.0%) 
+physics               [variable]       11552/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 587
+Writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed
+
+
+
+materialPath: F:\Program Files (x86)\SteamLibrary\SteamApps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.vmf
+Map revision 24
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16304 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 65 texinfos to 42
+Reduced 8 texdatas to 8 (163 bytes to 163)
+Writing C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.prt
+ 124 portalclusters
+ 400 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 209 visible clusters (0.00%)
+Total clusters visible: 13995
+Average clusters visible: 112
+Building PAS...
+Average clusters audible: 124
+visdatasize:4971  compressed from 3968
+writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed
+
+
+
+materialPath: F:\Program Files (x86)\SteamLibrary\SteamApps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.vmf
+Map revision 37
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (29376 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 105 texinfos to 68
+Reduced 11 texdatas to 11 (225 bytes to 225)
+Writing C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.prt
+ 224 portalclusters
+ 828 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1055 visible clusters (0.00%)
+Total clusters visible: 46695
+Average clusters visible: 208
+Building PAS...
+Average clusters audible: 224
+visdatasize:14373  compressed from 14336
+writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed
+
+
+
+materialPath: F:\Program Files (x86)\SteamLibrary\SteamApps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.vmf
+Map revision 65
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (48888 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 163 texinfos to 113
+Reduced 11 texdatas to 11 (225 bytes to 225)
+Writing C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.prt
+ 344 portalclusters
+1205 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 2472 visible clusters (0.00%)
+Total clusters visible: 104882
+Average clusters visible: 304
+Building PAS...
+Average clusters audible: 344
+visdatasize:32248  compressed from 33024
+writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed
+
+
+
+materialPath: F:\Program Files (x86)\SteamLibrary\SteamApps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.vmf
+Map revision 72
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (52760 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 170 texinfos to 118
+Reduced 11 texdatas to 11 (225 bytes to 225)
+Writing C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.prt
+ 376 portalclusters
+1307 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 3801 visible clusters (0.00%)
+Total clusters visible: 122085
+Average clusters visible: 324
+Building PAS...
+Average clusters audible: 373
+visdatasize:38124  compressed from 36096
+writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed
+
+
+
+materialPath: F:\Program Files (x86)\SteamLibrary\SteamApps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.vmf
+Map revision 103
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (73940 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 220 texinfos to 153
+Reduced 12 texdatas to 12 (257 bytes to 257)
+Writing C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.prt
+ 512 portalclusters
+1722 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 7467 visible clusters (0.00%)
+Total clusters visible: 233465
+Average clusters visible: 455
+Building PAS...
+Average clusters audible: 512
+visdatasize:69421  compressed from 65536
+writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed
+
+
+
+materialPath: F:\Program Files (x86)\SteamLibrary\SteamApps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.vmf
+Map revision 118
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (148443 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 153 texinfos to 94
+Reduced 12 texdatas to 12 (257 bytes to 257)
+Writing C:\Users\jeffh\Dropbox\Pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.prt
+1007 portalclusters
+3426 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 30273 visible clusters (0.00%)
+Total clusters visible: 901926
+Average clusters visible: 895
+Building PAS...
+Average clusters audible: 1007
+visdatasize:260156  compressed from 257792
+writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level3.bsp
+0 seconds elapsed

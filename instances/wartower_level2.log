@@ -1,0 +1,37 @@
+
+
+
+materialPath: F:\Program Files (x86)\SteamLibrary\SteamApps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level2.vmf
+Map revision 9
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-312.00 1600.00 154.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (35652 bytes)
+Static prop models/props/de_nuke/hr_nuke/nuke_light_fixture/nuke_fluorescent_light_64.mdl outside the map (-312.00, 1600.00, 154.00)
+Static prop models/props/de_nuke/hr_nuke/nuke_light_fixture/nuke_fluorescent_light_64.mdl outside the map (0.00, 1344.00, 154.00)
+Static prop models/props/de_nuke/hr_nuke/nuke_light_fixture/nuke_fluorescent_light_64.mdl outside the map (0.00, 1856.00, 154.00)
+Static prop models/props/de_nuke/hr_nuke/nuke_light_fixture/nuke_fluorescent_light_64.mdl outside the map (312.00, 1600.00, 154.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 38 texinfos to 25
+Reduced 7 texdatas to 7 (146 bytes to 146)
+Writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level2.bsp
+0 seconds elapsed
+
+
+
+7 threads
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level2.bsp
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level2.prt
+LoadPortals: couldn't read c:\users\jeffh\dropbox\pub\vmfs\wartower\development\instances\wartower_level2.prt
