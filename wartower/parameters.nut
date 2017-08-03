@@ -7,7 +7,7 @@ NUM_ROUNDS <- 3;					//Total number of floors
 TELEPORT_BETWEEN_FLOORS <- true;	//debug setting used to teleport players between floors or not
 
 //Dev Settings
-CLEANUP_OLD_CRATES <- false;		//debug flag used to clean up crates on floors that have already been finished
+CLEANUP_OLD_CRATES <- true;		//debug flag used to clean up crates on floors that have already been finished
 CRATE_WIDTH <- 20;					//Width of the crate, keeps crates within crate spawns
 CRATE_SEARCH_MAX <- 2000;			//Number of cratespawners to search for
 
@@ -75,14 +75,22 @@ INVENTORY_ITEMS <- [
 	{weapon_ent_name="weapon_ak47" 			weapon_name = "AK-47"	 		index=3		type=INVENTORY_TYPE.PRIMARY		duration=4		model="models/weapons/v_rif_ak47.mdl"},
 	{weapon_ent_name="weapon_smokegrenade" 	weapon_name = "Smoke Grenade"	index=4		type=INVENTORY_TYPE.GRENADE		duration=1		model="models/weapons/v_eq_smokegrenade.mdl"},
 	{weapon_ent_name="weapon_healthshot"	weapon_name = "Health Pack"		index=5		type=INVENTORY_TYPE.HP			duration=1		model="models/weapons/v_healthshot.mdl"},
-	{weapon_ent_name="weapon_awp"			weapon_name = "AWP"				index=6		type=INVENTORY_TYPE.PRIMARY		duration=6		model="models/weapons/v_snip_awp.mdl"}
+	{weapon_ent_name="weapon_awp"			weapon_name = "AWP"				index=6		type=INVENTORY_TYPE.PRIMARY		duration=6		model="models/weapons/v_snip_awp.mdl"},
+	{weapon_ent_name="weapon_hegrenade" 	weapon_name = "HE Grenade"		index=7		type=INVENTORY_TYPE.GRENADE		duration=1		model="models/weapons/v_eq_fraggrenade.mdl"},
+	{weapon_ent_name="weapon_galilar" 		weapon_name = "Galil"			index=8		type=INVENTORY_TYPE.PRIMARY		duration=3		model="models/weapons/v_rif_galilar.mdl"},
+	{weapon_ent_name="weapon_tec9" 			weapon_name = "Tec-9"			index=9		type=INVENTORY_TYPE.SECONDARY	duration=2		model="models/weapons/v_pist_tec9.mdl"},
+	{weapon_ent_name="weapon_bizon" 		weapon_name = "Bizon"			index=10	type=INVENTORY_TYPE.PRIMARY		duration=2		model="models/weapons/v_smg_bizon.mdl"},
+	{weapon_ent_name="weapon_flashbang" 	weapon_name = "Flashbang"		index=11	type=INVENTORY_TYPE.GRENADE		duration=2		model="models/weapons/v_eq_flashbang.mdl"},
+	{weapon_ent_name="weapon_ssg08" 		weapon_name = "Scout"			index=12	type=INVENTORY_TYPE.PRIMARY		duration=4		model="models/weapons/v_snip_ssg08.mdl"},
+	{weapon_ent_name="weapon_m249" 			weapon_name = "M249"			index=13	type=INVENTORY_TYPE.PRIMARY		duration=4		model="models/weapons/v_mach_m249para.mdl"},
+	{weapon_ent_name="weapon_molotov" 		weapon_name = "Molotov"			index=14	type=INVENTORY_TYPE.GRENADE		duration=1		model="models/weapons/v_eq_molotov.mdl"}
 ]
 
 //Weapons for each round
 ROUND_WEAPON_LIST <- [
-	[	[0],				[1]									],	//Round 0 [[type 1 weapons list], [type2], [type3], [etc]]
-	[	[2],				[3,5],						[4],					[6]],	//Round 1
-	[	[1],				[3],						[6],	],	//Round 2
+	[	[0,1],				[9,10]									],	//Round 0 [[type 1 weapons list], [type2], [type3], [etc]]
+	[	[2,10,14],			[3,5,7,11],						[4,13,11],					[6]],	//Round 1
+	[	[1,8,11,10],		[3,5,13,7,12],					[4,9,11,2,8],	],	//Round 2
 	[	[3],				[1]									]	//Round 3
 ]
 

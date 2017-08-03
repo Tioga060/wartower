@@ -77,7 +77,7 @@ class Player
 	function ArrayFindFixInventory(ar, val){
 		for(local a = 0;a<(ar.len());a+=1)
 		{
-			if(val.type == ar[a].type){
+			if(val.type == ar[a].type && val.type != INVENTORY_TYPE.GRENADE){
 				return a;
 			}
 		}
