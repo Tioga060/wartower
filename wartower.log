@@ -2130,3 +2130,131 @@ Level flags = 7e
 Total triangle count: 19424
 Writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\wartower.bsp
 1 minute, 10 seconds elapsed
+
+
+
+materialPath: F:\Program Files (x86)\SteamLibrary\SteamApps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\wartower.vmf
+Map revision 356
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\wartower.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (685096 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1007 texinfos to 529
+Reduced 28 texdatas to 28 (629 bytes to 629)
+Writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\wartower.bsp
+1 second elapsed
+
+
+
+7 threads
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\wartower.bsp
+reading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\wartower.prt
+2326 portalclusters
+6187 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 351523 visible clusters (0.00%)
+Total clusters visible: 2911936
+Average clusters visible: 1251
+Building PAS...
+Average clusters audible: 2090
+visdatasize:1196480  compressed from 1376992
+writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\wartower.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\jeffh\dropbox\pub\vmfs\wartower\development\wartower.bsp
+Loaded alpha texture materials\cstrike\{tk_grate.vtf
+Loaded alpha texture materials\de_nuke\nuke_metalgrate_01.vtf
+7406 faces
+2037515 square feet [293402240.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7406 patches before subdivision
+37532 patches after subdivision
+126 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3530889, max 706
+transfer lists:  26.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(299995, 279720, 273927)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(69554, 70320, 73206)
+Build Patch/Sample Hash Table(s).....Done<0.0145 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 107/1024         5136/49152    (10.4%) 
+brushes               1840/8192        22080/98304    (22.5%) 
+brushsides           14193/65536      113544/524288   (21.7%) 
+planes                4850/65536       97000/1310720  ( 7.4%) 
+vertexes             10591/65536      127092/786432   (16.2%) 
+nodes                 5435/65536      173920/2097152  ( 8.3%) 
+texinfos               529/12288       38088/884736   ( 4.3%) 
+texdata                 28/2048          896/65536    ( 1.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 7406/65536      414736/3670016  (11.3%) 
+hdr faces             7406/65536      414736/3670016  (11.3%) 
+origfaces             4520/65536      253120/3670016  ( 6.9%) 
+facebrushes           1149/0            2298/0        ( 0.0%) 
+facebrushlists        7406/0           29624/0        ( 0.0%) 
+leaves                5543/65536      177376/2097152  ( 8.5%) 
+leaffaces             8425/65536       16850/131072   (12.9%) 
+leafbrushes           4001/65536        8002/131072   ( 6.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            52399/512000     209596/2048000  (10.2%) 
+edges                31064/256000     124256/1024000  (12.1%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights        126/8192        12600/819200   ( 1.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            535/32768        5350/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8052/65536       16104/131072   (12.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                64/1024        22528/360448   ( 6.3%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1914200/0        ( 0.0%) 
+visdata               [variable]     1196480/16777216 ( 7.1%) 
+entdata               [variable]       67375/393216   (17.1%) 
+LDR ambient table     5543/65536       22172/262144   ( 8.5%) 
+HDR ambient table     5543/65536       22172/262144   ( 8.5%) 
+LDR leaf ambient      5543/65536      155204/1835008  ( 8.5%) 
+HDR leaf ambient     34841/65536      975548/1835008  (53.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/17492    ( 0.0%) 
+pakfile               [variable]     2430562/0        ( 0.0%) 
+physics               [variable]      685096/4194304  (16.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 19432
+Writing c:\users\jeffh\dropbox\pub\vmfs\wartower\development\wartower.bsp
+1 minute, 17 seconds elapsed

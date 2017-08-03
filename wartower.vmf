@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7560"
-	"mapversion" "355"
+	"mapversion" "356"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -32,7 +32,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "355"
+	"mapversion" "356"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -22708,11 +22708,11 @@ entity
 		{
 			"id" "1025"
 			"plane" "(-648 -648 128) (-640 -640 128) (640 -640 128)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "DEV/REFLECTIVITY_10"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "128"
+			"lightmapscale" "64"
 			"smoothing_groups" "0"
 		}
 		side
@@ -22806,11 +22806,11 @@ entity
 		{
 			"id" "1029"
 			"plane" "(-648 648 128) (-640 640 128) (-640 -640 128)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "DEV/REFLECTIVITY_10"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "128"
+			"lightmapscale" "64"
 			"smoothing_groups" "0"
 		}
 		side
@@ -22882,11 +22882,11 @@ entity
 		{
 			"id" "1035"
 			"plane" "(648 648 128) (648 -648 128) (640 -640 128)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "DEV/REFLECTIVITY_10"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "128"
+			"lightmapscale" "64"
 			"smoothing_groups" "0"
 		}
 		side
@@ -22936,11 +22936,11 @@ entity
 		{
 			"id" "1043"
 			"plane" "(-648 648 128) (648 648 128) (640 640 128)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "DEV/REFLECTIVITY_10"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "128"
+			"lightmapscale" "64"
 			"smoothing_groups" "0"
 		}
 		side

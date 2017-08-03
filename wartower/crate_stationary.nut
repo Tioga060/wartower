@@ -57,6 +57,13 @@ class Player
 	player_entity = null;
 	time_entered = null;
 	crate_contents = null;
+	font_colors = [
+		"#ff0000",
+		"#ffb200",
+		"#fffb00",
+		"#99d2ff",
+		"#99d2ff"
+	]
 	constructor(ent, cc){
 		crate_contents = cc;
 		player_entity = ent;
@@ -68,9 +75,14 @@ class Player
 	}
 	
 	function PrintTimeLeft(){
-		displayText(player_entity, crate_contents.weapon_name + "\n" + format("%.1f",max(0,(crate_contents.duration-(Time()-time_entered)))).tostring());
+		local index = ((Time()-time_entered)/crate_contents.duration)*4.0;
+		local text = format("%s\n<font color='%s'>",crate_contents.weapon_name,font_colors[index.tointeger()]); 
+		text +=  format("%.1f",max(0,(crate_contents.duration-(Time()-time_entered)))).tostring()
+		text += "</font>"
+		displayText(player_entity, text);
 	}
 }
+
 
 function CheckPlayersInLongEnough()
 {
